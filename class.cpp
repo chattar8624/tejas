@@ -16,4 +16,4 @@ int main(){
     cout<< myobj.mynum<<"\n";
     cout <<myobj.mystring;
     return 0;
-}ioi
+}
