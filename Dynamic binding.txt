@@ -1,0 +1,52 @@
+import java.util.*;
+abstract class shape {
+
+void input(){
+Scanner sc = new Scanner(System.in);
+
+System.out.println("Enter the value of value1 =");
+value1 = sc.nextDouble();
+
+System.out.println("Enter the value of value1 =");
+value2 = sc.nextDouble();
+
+
+}
+abstract void computearea();
+
+
+}
+class triangle extends shape {
+void computearea(){
+double area;
+System.out.println("value1 = base and value2 = height");
+area = 0.5*value1*value2;
+System.out.println("Area of triangle is ="+area);
+}
+}
+
+
+class rectangle extends shape {
+void computearea(){
+double area;
+System.out.println("value1 = length and value2 = bradth");
+area = value1*value2;
+System.out.println("Area of rectangle is ="+area);
+
+}
+}
+
+class Dynamic {
+public static void main (String[]args){
+shape r = new triangle();
+r.input();
+r.computearea();
+
+shape t = new rectangle();
+t.input();
+t.computearea();
+}
+}
+
+
+
