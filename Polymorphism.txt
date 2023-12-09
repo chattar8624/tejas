@@ -1,0 +1,67 @@
+import java.util.*;
+class Publication{
+String Title;
+int Price;
+int copies;
+void salecopy(){
+
+}
+
+}
+
+class Book {
+String Title,author;
+int Price;
+int copies;
+void salecopy(){
+
+}
+
+void ordercopies(){
+
+}
+
+
+
+}
+
+
+class Magazine {
+String Title;
+int Price;
+int copies;
+void salecopy(){
+int sale;
+sale = copies*40;
+System.out.println("Total sale="+sale);
+
+}
+
+void orderQty(){
+Scanner sc = new Scanner(System.in);
+System.out.println("Enter the value of copies =");
+copies = sc.nextInt();
+
+
+}
+
+void currentisuue(){
+
+}
+
+void receiveissue(){
+
+}
+
+
+}
+
+class Polymorphism {
+public static void main (String[]args){
+Magazine a = new Magazine();
+a.orderQty();
+a.salecopy();
+}
+}
+
+ 
